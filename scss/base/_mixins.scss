@@ -1,0 +1,13 @@
+// Imagenes grandes y Carrousel
+
+@mixin flex-center {
+    text-align: center;
+    justify-content: center;
+    margin:0 auto;
+    width: 80%;
+}
+
+@mixin animacion {
+    transform: scale(1.1);
+    box-shadow: $colorsombras 0px 0px 100px ;
+}

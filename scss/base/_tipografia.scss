@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+p{
+    color:whitesmoke;
+}
+
+h2{
+    color:red;
+    font-family: Impact, Haettenschweiler, 'Anton', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+h1{
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Anton', sans-serif;
+    font-size: 2rem;
+
+}
+
+.card-title{color: red;
+    font-variant-caps:all-small-caps;}
+
+    p::selection {
+        background: red;
+        color: whitesmoke;}

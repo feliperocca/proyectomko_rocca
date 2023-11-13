@@ -1,0 +1,15 @@
+.animaimg{
+    transition:all .3s;
+}
+
+.animaimg:hover{
+    @include animacion;
+}
+
+.bannerprincipal{
+    transition: all .3s;
+}
+
+.bannerprincipal:hover{
+    @include animacion;
+}

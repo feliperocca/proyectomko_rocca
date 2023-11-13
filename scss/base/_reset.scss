@@ -1,0 +1,25 @@
+
+body {
+    background: linear-gradient(26deg, #ff0000, #000000, #000000, #000000);
+    background-size: 800% 800%;
+
+    -webkit-animation: animacionbackground 30s ease infinite;
+    -moz-animation: animacionbackground 30s ease infinite;
+    animation: animacionbackground 30s ease infinite;
+}
+
+@-webkit-keyframes animacionbackground {
+    0%{background-position:36% 0%}
+    50%{background-position:65% 100%}
+    100%{background-position:36% 0%}
+}
+@-moz-keyframes animacionbackground {
+    0%{background-position:36% 0%}
+    50%{background-position:65% 100%}
+    100%{background-position:36% 0%}
+}
+@keyframes animacionbackground {
+    0%{background-position:36% 0%}
+    50%{background-position:65% 100%}
+    100%{background-position:36% 0%}
+}

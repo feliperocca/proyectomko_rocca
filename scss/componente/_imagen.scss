@@ -1,0 +1,13 @@
+.banner_posicion{
+    text-align: center;
+}
+
+.card{
+    background-color: black;
+}
+.mapa{
+    @include flex-center;
+}
+.centrar{
+    @include flex-center;
+}
