@@ -11,3 +11,14 @@
     color: red;
     font-variant:all-small-caps;
 }
+
+.btn-primary{
+    background-color: red;
+    border-radius: 0px;
+    border-color: red;
+
+}
+.btn-primary:hover{
+    background-color: gray;
+    border-color: red;
+}

@@ -1,3 +1,5 @@
 .contenedorprueba{
     @include flex-center;
 }
+.carousel{@include flex-center;
+    max-width: 70%;}

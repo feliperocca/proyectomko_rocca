@@ -127,6 +127,17 @@ footer {
   font-variant: all-small-caps;
 }
 
+.btn-primary {
+  background-color: red;
+  border-radius: 0px;
+  border-color: red;
+}
+
+.btn-primary:hover {
+  background-color: gray;
+  border-color: red;
+}
+
 .banner_posicion {
   text-align: center;
 }
@@ -154,6 +165,14 @@ footer {
   justify-content: center;
   margin: 0 auto;
   width: 80%;
+}
+
+.carousel {
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 70%;
 }
 
 .col .iconosc {
